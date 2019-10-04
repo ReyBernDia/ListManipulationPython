@@ -45,6 +45,18 @@ def tail(input_list):
 
     return input_list[1:]
 
+def last(input_list):
+    """Return the last element of the input list.
+
+    For example:
+
+    >>> last(['Jan', 'Feb', 'Mar'])
+    'Mar'
+
+    """
+    month = input_list[-1:]
+    # print(month)
+    return month[0]
 
     
 ##############################################################################
