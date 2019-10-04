@@ -58,6 +58,18 @@ def last(input_list):
     # print(month)
     return month[0]
 
+def init(input_list):
+    """Return all elements of the input list except the last.
+
+    For example:
+
+    >>> init(['Jan', 'Feb', 'Mar'])
+    ['Jan', 'Feb']
+
+    """
+
+    return input_list[:-1]
+
     
 ##############################################################################
 # END OF MAIN EXERCISE.  Yay!  You did it! You Rock!
