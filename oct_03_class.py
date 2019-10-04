@@ -69,7 +69,18 @@ def init(input_list):
     """
 
     return input_list[:-1]
+    
+def first_three(input_list):
+    """Return the first three elements of the input list.
 
+    For example:
+
+    >>> first_three(['Jan', 'Feb', 'Mar', 'Apr', 'May'])
+    ['Jan', 'Feb', 'Mar']
+
+    """
+
+    return input_list[:3]
     
 ##############################################################################
 # END OF MAIN EXERCISE.  Yay!  You did it! You Rock!
