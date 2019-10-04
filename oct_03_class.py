@@ -69,7 +69,7 @@ def init(input_list):
     """
 
     return input_list[:-1]
-    
+
 def first_three(input_list):
     """Return the first three elements of the input list.
 
@@ -81,6 +81,31 @@ def first_three(input_list):
     """
 
     return input_list[:3]
+
+def last_five(input_list):
+    """Return the last five elements of the input list.
+
+    For example:
+
+    >>> last_five([0, 3, 6, 9, 12, 15, 18, 21, 24, 27])
+    [15, 18, 21, 24, 27]
+
+    """
+
+    return input_list[-5:]
+
+
+def middle(input_list):
+    """Return all elements of input_list except the first two and the last two.
+
+    For example:
+
+    >>> middle([0, 3, 6, 9, 12, 15, 18, 21, 24, 27])
+    [6, 9, 12, 15, 18, 21]
+
+    """
+
+    return input_list[2:-2]
     
 ##############################################################################
 # END OF MAIN EXERCISE.  Yay!  You did it! You Rock!
