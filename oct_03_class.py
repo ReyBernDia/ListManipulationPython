@@ -32,6 +32,20 @@ def head(input_list):
 
     return month[0]
 
+
+def tail(input_list):
+    """Return all elements of the input list except the first.
+
+    For example:
+
+    >>> tail(['Jan', 'Feb', 'Mar'])
+    ['Feb', 'Mar']
+
+    """
+
+    return input_list[1:]
+
+
     
 ##############################################################################
 # END OF MAIN EXERCISE.  Yay!  You did it! You Rock!
