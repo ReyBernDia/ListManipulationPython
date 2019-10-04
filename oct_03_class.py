@@ -138,6 +138,56 @@ def inner_four_end(input_list):
     return input_list[-6:-2]
 
 
+def replace_head(input_list):
+    """Replace the head of input_list with the value 42 and return nothing.
+
+    For example:
+
+    >>> multiples = [0, 3, 6, 9, 12, 15, 18, 21, 24, 27]
+    >>> replace_head(multiples)
+    >>> multiples == [42, 3, 6, 9, 12, 15, 18, 21, 24, 27]
+    True
+
+    """
+    input_list[0] = 42  
+   
+
+
+
+def replace_third_and_last(input_list):
+    """Replace third and last elements of input_list with 37 and return nothing.
+
+    For example:
+
+    >>> multiples = [0, 3, 6, 9, 12, 15, 18, 21, 24, 27]
+    >>> replace_third_and_last(multiples)
+    >>> multiples == [0, 3, 37, 9, 12, 15, 18, 21, 24, 37]
+    True
+    
+
+    """
+    input_list[2] = 37
+    input_list[-1] = 37
+
+    
+
+
+def replace_middle(input_list):
+    """Replace all elements of a list but the first and last two with 42 and 37.
+
+    After the replacement, 42 and 37 should appear in that order in input_list.
+
+    Return nothing.
+
+    For example:
+
+    >>> multiples = [0, 3, 6, 9, 12, 15, 18, 21, 24, 27]
+    >>> replace_middle(multiples)
+    >>> multiples == [0, 3, 42, 37, 24, 27]
+    True
+
+    """
+    input_list[2:-2] = (42, 37)
     
 ##############################################################################
 # END OF MAIN EXERCISE.  Yay!  You did it! You Rock!
